@@ -1,0 +1,22 @@
+#include<stdio.h>
+
+int main(){
+int a;
+int b;
+int temp;
+
+printf("please enter your number for a.\n");
+scanf("%d.\n", &a);
+printf("please enter your number for b.\n");
+scanf("%d.\n", &b);
+
+temp = a;
+a = b;  
+b = temp;
+
+printf("after exchanging, the number is\n"); 
+printf("a is %d\n", a); 
+printf("b is %d\n", b); 
+
+return 0;
+}
