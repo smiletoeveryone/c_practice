@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+int top;
+printf("please input a number for a top-end.\n");
+scanf("%d.\ni", &top);
+printf("the total even numbers are as below.\n");
+for(int i=1; i<=top; i++){
+if(i%2==0){
+printf("%i.\n", i); 
+}
+
+}
+return 0;} 
